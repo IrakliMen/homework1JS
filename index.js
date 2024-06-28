@@ -21,7 +21,7 @@ if (oddEven % 2 == 0) {
 
 //task4(2)
 let day = 6;
-let dayname;
+let dayName;
 switch (day) {
     case 1:
         dayName = "ორშაბათი";
