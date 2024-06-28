@@ -21,29 +21,30 @@ if (oddEven % 2 == 0) {
 
 //task4(2)
 let day = 6;
+let dayname;
 switch (day) {
     case 1:
-        day = "ორშაბათი";
+        dayName = "ორშაბათი";
         break;
     case 2:
-        day = "სამშაბათი";
+        dayName = "სამშაბათი";
         break;
     case 3:
-        day = "ოთხშაბათი";
+        dayName = "ოთხშაბათი";
         break;
     case 4:
-        day = "ხუთშაბათი";
+        dayName = "ხუთშაბათი";
         break;
     case 5:
-        day = "პარასკევი";
+        dayName = "პარასკევი";
         break;
     case 6:
-        day = "შაბათი";
+        dayName = "შაბათი";
         break;
     case 7:
-        day = "კვირა";
+        dayName = "კვირა";
 }
-console.log(day);
+console.log(dayName);
 
 //task5
 let age = 4;
